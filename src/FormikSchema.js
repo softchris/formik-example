@@ -6,7 +6,6 @@ const validate = (values) => {
   let errors = {};
   return new Promise(resolve => {
     setTimeout(() => {
-      debugger;
       if (!values.email) {
         errors.email = "Email is required";
       }
